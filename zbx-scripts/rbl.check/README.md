@@ -77,7 +77,6 @@ Use `rbl.check` like an **External Check** item in Zabbix.  So, when creating an
   SURRIEL             =>     psbl.surriel.com
   SPAMLAB             =>     rbl.spamlab.com
   BOGONS_CYMRU        =>     bogons.cymru.com
-  RFC-IGNORANT        =>     dsn.bl.rfc-ignorant.de
 
 Version
 -------

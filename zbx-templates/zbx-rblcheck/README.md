@@ -40,7 +40,6 @@ Actually supported RBLs are :
  * SURRIEL             =>     psbl.surriel.com
  * SPAMLAB             =>     rbl.spamlab.com
  * BOGONS_CYMRU        =>     bogons.cymru.com
- * RFC-IGNORANT        =>     dsn.bl.rfc-ignorant.de
 
 Items
 -----
@@ -87,7 +86,6 @@ Triggers
   * **[HIGH]** => Host is blacklisted on SURRIEL
   * **[HIGH]** => Host is blacklisted on SPAMLAB
   * **[HIGH]** => Host is blacklisted on BOGONS_CYMRU
-  * **[HIGH]** => Host is blacklisted on RFC-IGNORANT
 
 Installation
 ------------

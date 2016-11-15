@@ -260,16 +260,6 @@
             <dependencies/>
         </trigger>
         <trigger>
-            <expression>{ZBX-RBLCHECK:rbl.check[&quot;-q&quot;,&quot;{HOST.IP}&quot;].regexp(&quot;RFC-IGNORANT&quot;)}=1</expression>
-            <name>{HOST.NAME} is blacklisted on RFC-IGNORANT</name>
-            <url/>
-            <status>0</status>
-            <priority>4</priority>
-            <description>Lookup URL:</description>
-            <type>0</type>
-            <dependencies/>
-        </trigger>
-        <trigger>
             <expression>{ZBX-RBLCHECK:rbl.check[&quot;-q&quot;,&quot;{HOST.IP}&quot;].regexp(&quot;RHSBL&quot;)}=1</expression>
             <name>{HOST.NAME} is blacklisted on RHSBL</name>
             <url/>
